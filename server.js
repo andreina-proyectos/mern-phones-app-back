@@ -9,6 +9,10 @@ const { v4: uuidv4 } = require('uuid');
 app.use(cors());
 app.use(bodyParser.json());
 
+app.listen(port, () => {
+  console.log(`Server phones-catalog app listening at http://localhost:${port}`)
+})
+
 //GET
 app.get('/phones', (req, res) => {
   res
@@ -16,8 +20,19 @@ app.get('/phones', (req, res) => {
   .json(phonesList)
 })
 
-app.listen(port, () => {
-  console.log(`Server phones-catalog app listening at http://localhost:${port}`)
+//GET BY ID
+app.get('/phones/:id', (req, res) => {
+  phoneId = req.params.id;
+  const requestPhone = phonesList.find(phone => phone.id ===  phoneId);
+
+  if(!requestPhone) {
+    res.status(404).json({"message-error": `Phone with id ${phoneId} not found`});
+    return
+  }
+
+  else {
+    res.status(200).json(requestPhone)
+  }
 })
 
 
