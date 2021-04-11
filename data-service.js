@@ -1,6 +1,6 @@
 let phonesList = [
     {
-        "id":  1,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf98888",
         "name": "Xiaomi Mi 11 Ultra",
         "manufacturer": "Xiaomi",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum",
@@ -16,7 +16,7 @@ let phonesList = [
         "cam": "50MP"
     },
     {
-        "id":  2,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf95656",
         "name": "Xiaomi Poco F3",
         "manufacturer": "Xiaomi",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, color spectrum",
@@ -32,7 +32,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  3,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf92525",
         "name": "Nokia X20",
         "manufacturer": "Nokia",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity",
@@ -48,7 +48,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  4,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9koko4",
         "name": "Xiaomi Redmi K40 Pro",
         "manufacturer": "Xiaomi",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, color spectrum, barometer",
@@ -64,7 +64,7 @@ let phonesList = [
         "cam": "64MP"
        },
        {
-        "id":  5,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf97777",
         "name": "OnePlus 8T",
         "manufacturer": "OnePlus",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer (market dependant)",
@@ -80,7 +80,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  6,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf92020a",
         "name": "Samsung Galaxy M62",
         "manufacturer": "Samsung",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
@@ -96,7 +96,7 @@ let phonesList = [
         "cam": "64MP"
        },
        {
-        "id":  7,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9jiji",
         "name": "Nubia Red Magic 6",
         "manufacturer": "Nubia",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
@@ -112,7 +112,7 @@ let phonesList = [
         "cam": "64MP"
        },
        {
-        "id":  8,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9huhu",
         "name": "Huawei Mate 40 Pro",
         "manufacturer": "Huawei",
         "description": "Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, color spectrum",
@@ -128,7 +128,7 @@ let phonesList = [
         "cam": "13MP"
        },
        {
-        "id":  9,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf95s43",
         "name": "Black Shark 4",
         "manufacturer": "Xiaomi",
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
@@ -144,7 +144,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  10,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9js2gtl",
         "name": "Vivo X60 Pro",
         "manufacturer": "Vivo",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum",
@@ -160,7 +160,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  11,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9juhb32",
         "name": "Samsung Galaxy S20 FE",
         "manufacturer": "Samsung",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, Bixby natural language commands and dictation,Samsung Pay (Visa, MasterCard certified)",
@@ -176,7 +176,7 @@ let phonesList = [
         "cam": "12MP"
        },
        {
-        "id":  12,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9lkjlkjklj",
         "name": "Asus ROG Phone 3 Strix Edition",
         "manufacturer": "Asus",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
@@ -192,7 +192,7 @@ let phonesList = [
         "cam": "64MP"
        },
        {
-        "id":  13,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9jklhkj74",
         "name": "Motorola Edge+",
         "manufacturer": "Motorola",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer",
@@ -208,7 +208,7 @@ let phonesList = [
         "cam": "108MP"
        },
        {
-        "id":  14,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf945chs",
         "name": "Apple iPhone 11",
         "manufacturer": "Apple",
         "description": "Face ID, accelerometer, gyro, proximity, compass, barometer, Siri natural language commands and dictation, Ultra Wideband (UWB) support",
@@ -224,7 +224,7 @@ let phonesList = [
         "cam": "12MP"
        },
        {
-        "id":  15,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf932323243",
         "name": "Vivo iQOO Neo5",
         "manufacturer": "Vivo",
         "description": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
@@ -240,7 +240,7 @@ let phonesList = [
         "cam": "48MP"
        },
        {
-        "id":  16,
+        "id":  "3d7584c3-2ae5-4fce-98b8-9b4b9bf9sasa65",
         "name": "iPhone SE (2020)",
         "manufacturer": "Apple",
         "description": "Fingerprint (front-mounted), accelerometer, proximity, gyro, compass, barometer, fast charging 18W, 50% in 30 min (advertised)  Qi wireless charging",
