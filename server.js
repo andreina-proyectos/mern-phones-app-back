@@ -1,9 +1,17 @@
 const express = require('express')
+const newPhonesList = require("./data-service")
 const app = express()
-const port = 3000
+const port = 3000;
+const cors = require("cors");
 
-app.get('/', (req, res) => {
-  res.send('Test andre!')
+app.use(cors());
+
+//GET
+
+app.get('/phones', (req, res) => {
+  res
+  .status(200)
+  .json(newPhonesList)
 })
 
 app.listen(port, () => {
