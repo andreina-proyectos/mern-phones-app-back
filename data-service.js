@@ -22,7 +22,7 @@ let phonesList = [
         "description": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, color spectrum",
         "color": "Ceramic White, Ceramic Black",
         "price": "300 EUR",
-        "imageFileName":"https://cdn-files.kimovil.com/phone_front/0005/86/thumb_485001_phone_front_big.jpeg",
+        "imageFileName":"https://cdn-files.kimovil.com/default/0005/85/thumb_484983_default_big.jpeg",
         "screen": "6.67",
         "resolution": "1080x2400 px",
         "processor": "Qualcomm Snapdragon 870",

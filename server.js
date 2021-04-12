@@ -1,7 +1,7 @@
 const express = require('express')
 const phonesList = require("./data-service")
 const app = express()
-const port = 3000;
+const port = 8000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const { v4: uuidv4 } = require('uuid');
@@ -30,9 +30,9 @@ app.get('/phones/:id', (req, res) => {
     return
   }
 
-  else {
+  setTimeout(() => {
     res.status(200).json(requestPhone)
-  }
+  }, 3000);
 })
 
 
