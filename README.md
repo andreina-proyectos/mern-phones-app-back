@@ -62,7 +62,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 You can run the server and put the URL to make some tests in Postman app. For a POST endpoint, you can try with http://localhost:8000/phones/ and sending an object like this changing the example values:
 
-``
+```
     {
         "name": "iPhone SE (2020)",
         "manufacturer": "Apple",
@@ -79,7 +79,7 @@ You can run the server and put the URL to make some tests in Postman app. For a 
         "cam": "12MP"
     }
 
-``
+```
 
 I added a file with the Postmancollection to testing to make your life easier 🤞
 
