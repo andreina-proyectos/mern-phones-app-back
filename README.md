@@ -81,6 +81,8 @@ You can run the server and put the URL to make some tests in Postman app. For a 
 
 ``
 
+I added a file with the Postmancollection to testing to make your life easier 🤞
+
 More information here [https://learning.postman.com/docs/getting-started/introduction/]
 
 ### ⭐️ `thanks`

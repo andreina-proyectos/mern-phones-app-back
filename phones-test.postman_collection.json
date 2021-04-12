@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "01bd4520-200c-4261-ab7c-6d35f8982a13",
+		"name": "phones-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all phones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/phones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"phones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new phone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"iPhone SE (2020)\",\r\n        \"manufacturer\": \"Apple\",\r\n        \"description\": \"Fingerprint (front-mounted), accelerometer, proximity, gyro, compass, barometer, fast charging 18W, 50% in 30 min (advertised)  Qi wireless charging\",\r\n        \"color\": \"Black, White, Red\",\r\n        \"price\": \"374 EUR\",\r\n        \"imageFileName\":\"https://cdn-files.kimovil.com/default/0004/52/thumb_351846_default_big.jpeg\",\r\n        \"screen\": \"4.7\",\r\n        \"resolution\": \"750 x 1334 px\",\r\n        \"processor\": \"Apple A13 Bionic\",\r\n        \"ram\": \"3 GB\",\r\n        \"weight\": \"203 g\",\r\n        \"memory\": \"64GB, 128GB, 256GB\",\r\n        \"cam\": \"12MP\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/phones/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete phone",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"malibu con piña one more\",\r\n        \"manufacturer\": \"Xiaomi\",\r\n        \"description\": \"Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, color spectrum\",\r\n        \"color\": \"Ceramic White, Ceramic Black\",\r\n        \"price\": \"300 EUR\",\r\n        \"imageFileName\":\"https://cdn-files.kimovil.com/phone_front/0005/86/thumb_485001_phone_front_big.jpeg\",\r\n        \"screen\": \"6.67\",\r\n        \"resolution\": \"1080x2400 px\",\r\n        \"processor\": \"Qualcomm Snapdragon 870\",\r\n        \"ram\": \"128GB, 256GB\",\r\n        \"weight\": \"196 g\",\r\n        \"memory\": \"128 GB\",\r\n        \"cam\": \"48MP\"\r\n       }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/phones/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get phone by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"malibu con piña one more\",\r\n        \"manufacturer\": \"Xiaomi\",\r\n        \"description\": \"Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, color spectrum\",\r\n        \"color\": \"Ceramic White, Ceramic Black\",\r\n        \"price\": \"300 EUR\",\r\n        \"imageFileName\":\"https://cdn-files.kimovil.com/phone_front/0005/86/thumb_485001_phone_front_big.jpeg\",\r\n        \"screen\": \"6.67\",\r\n        \"resolution\": \"1080x2400 px\",\r\n        \"processor\": \"Qualcomm Snapdragon 870\",\r\n        \"ram\": \"128GB, 256GB\",\r\n        \"weight\": \"196 g\",\r\n        \"memory\": \"128 GB\",\r\n        \"cam\": \"48MP\"\r\n       }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/phones/60747828b5c6354ae8af5e10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"phones",
+						"60747828b5c6354ae8af5e10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
